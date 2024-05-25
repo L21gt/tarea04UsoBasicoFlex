@@ -1,0 +1,34 @@
+/* --------------- BANNER ARTICLE CSS STYLE-------------- */
+
+/*CONTAINER GENERAL FORMAT*/
+.containerBanner {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px;
+    border-color: lightgray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5% 5% 5% 5%;
+}
+
+/*TITLE FORMAT*/
+.titleBanner h1 {
+    font-weight:700;
+    justify-content: center;
+    margin: 0;
+}
+
+/*SUBTITLE FORMAT */
+.subTitleBanner p {
+    justify-content: center;
+    color: #B1B8AE;
+    font-size: small;
+    margin-bottom: 5%;
+}
+
+/*IMAGE FORMAT*/ 
+.imageBanner img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
