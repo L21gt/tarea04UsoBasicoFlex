@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>components/auth</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="container-auth">
+        <div class="container-authParent">
+            <div class="myApp">
+                <h1>MiApp</h1>
+            </div>
+            <div class="createAccount">
+                <h2>Create an account</h2>
+                <h3>Enter your email to sign up for this app</h3>
+                    <div class="emailForm">
+                        <form class="signupForm" action="/submit" method="POST">
+                            <input type="text" id="email" name="email" placeholder="email@domain.com">
+                            <button type="submit">Sign up with email</button>
+                        </form>
+                    </div>
+                    <div class="googleSignup">
+                        <p> or continue with &ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;</p>
+                            <button type="submit"><img src="../assets/icons/Google.png"> Google</button>
+                            <p>By clicking continue, you agree to our <b class="disclaimerBold">Terms of <br>
+                                Service</b> and <b class="disclaimerBold">Privacy Policy</b></p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
