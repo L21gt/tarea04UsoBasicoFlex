@@ -190,3 +190,82 @@
     font-weight: 600;
 } 
 
+
+
+/* ------------- CONTACTS PAGE CSS STYLE ------------- */ 
+
+/*general container full page*/
+.pageContainer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+/*main container with gray border*/
+.mainContainerContacts {
+    display: flex;
+    border: solid 2px;
+    border-color: #B1B8AE;
+    position: relative;
+    width: 95%;
+    max-width: 1000px;
+    height: 80%;
+}
+/*contacts container*/
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid lightgray;
+    height: 40%;
+    max-height: 330px;
+    width: 45%;
+    max-width: 330px;
+    padding: 5px 10px 20px 15px;
+    bottom: 40px;
+    right: 35px;
+    border-radius: 5px;
+}
+/*Contactos main title*/
+.contactsH1, h1 {
+    height: 15%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 6px;
+}
+/*Contacts list divs*/
+.contactsInfo {
+    height: 17%;
+    display: flex;
+    align-items: center;
+}
+/*image icon style*/
+.contactsInfo img {
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    display: flex;
+}
+/*contacts name and email style*/
+.contactText {
+    margin-left: 10px;
+}
+.contactsInfo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.contactsInfo h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    color: #757A73;
+    margin-top: 0;
+}
+
+
