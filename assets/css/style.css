@@ -271,6 +271,7 @@
 
 /* ------------- POSTS PAGE CSS STYLE ------------- */
 
+/*full page container*/
 .generalContainerPosts {
     display: flex;
     justify-content: center;
@@ -279,7 +280,7 @@
     height: 100%;
     position: absolute;
 }
-
+/* main container with main border style */
 .mainContainerPosts {
     display: flex;
     flex-direction: row;
@@ -292,16 +293,17 @@
     border: 2px solid lightgray;
 }
 
+/* full post design*/
 .fullPost {
     display: flex;
     flex-direction: column;
     padding: 50px;
 }
 
+/* header icon, header name and elapsed time + more options design */
 .postHeader {
     display: flex;
     flex-direction: row;
-
 }
 
 .headerIcon {
@@ -313,7 +315,7 @@
 .headerIcon img {
     border-radius: 50%;
     border: 1px solid;
-    width: 23px;
+    width: 20px;
     display: flex;
     margin-left: -60px;
 }
@@ -331,6 +333,8 @@
 .nameGroup h3 {
     margin-top: 3px;
     font-size: 7px;
+    margin-bottom: 0;
+    color: rgb(201, 206, 211);
 }
 
 .moreOptionsIcon {
@@ -342,12 +346,15 @@
     width: 15px;
 }
 
+
+/*post content space */
 .postContent {
-    background-color: #EDF3EB;
+    background-color: #ebedf0;
     height: 160px;
     width: 150px;
 }
 
+/* post content description section */
 .postDescription {
     display: flex;
     position: relative;
@@ -355,11 +362,12 @@
 }
 .postDescription h4 {
     margin-top: 7px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     font-size: 10px;
     font-weight: 200;
 }
 
+/* likes and comments section style*/
 .postLikeComment {
     display: flex;
     align-items: center;
@@ -368,6 +376,7 @@
     font-size: 9px;
     margin-left: 5px;
     margin-right: 10px;
+    margin-top: 8px;
 }
 .heartIcon img{
     width: 12px;
