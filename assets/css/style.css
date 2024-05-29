@@ -269,3 +269,109 @@
 }
 
 
+/* ------------- POSTS PAGE CSS STYLE ------------- */
+
+.generalContainerPosts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.mainContainerPosts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1100px;
+    height: 90%;
+    max-height: 700px;
+    border: 2px solid lightgray;
+}
+
+.fullPost {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.postHeader {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.headerIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 8px 8px;
+}
+.headerIcon img {
+    border-radius: 50%;
+    border: 1px solid;
+    width: 23px;
+    display: flex;
+    margin-left: -60px;
+}
+
+.nameGroup{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 55px 8px 0;
+    margin-left: -8px;
+}
+.nameGroup h2 {
+    font-weight: 100;
+    margin-bottom: 0px;
+    font-size: 8px;
+}
+.nameGroup h3 {
+    margin-top: 3px;
+    font-size: 7px;
+}
+
+.moreOptionsIcon {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+.moreOptionsIcon img {
+    width: 15px;
+}
+
+.postContent {
+    background-color: #EDF3EB;
+    height: 160px;
+    width: 150px;
+}
+
+.postDescription {
+    display: flex;
+    position: relative;
+    margin-top: 0;
+}
+.postDescription h4 {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.postLikeComment {
+    display: flex;
+    align-items: center;
+}
+.postLikeComment h5 {
+    font-size: 9px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.heartIcon img{
+    width: 12px;
+}
+.commentIcon img {
+    width: 12px;
+}
